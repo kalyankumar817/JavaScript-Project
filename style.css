@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+.searchinput{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card{
+    position: relative;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+#fav{
+    margin-left: 500px;
+}
